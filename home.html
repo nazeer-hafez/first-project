@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Employee Management</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Nova
+  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="page-index">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="home.html" class="active">Home</a></li>
+          <li><a href="employee.php">View Employee</a></li>
+          <li><a href="addemployee.html">Add Employee</a></li>
+          <li><a href="logout.php">LogOut</a></li>
+          
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4">
+          <h2 data-aos="fade-up">Employee Managemant</h2>
+          <blockquote data-aos="fade-up" data-aos-delay="100">
+            <p>You can find information about the employees in each department and modify the data.</p>
+          </blockquote>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="employee.php" class="btn-get-started">View</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Why Choose Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Why Choose Us</h2>
+
+        </div>
+
+        <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/why-us-bg.jpg')"></div>
+          <div class="col-xl-7 slides  position-relative">
+
+            <div class="slides-1 swiper">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Exceptional Expertise and Experience</h3>
+                    <h4 class="mb-3">we pride ourselves on our exceptional expertise and years of experience in the industry. Our team of dedicated professionals brings a wealth of knowledge and a proven track record of success.</h4>
+                    <p>We have consistently delivered outstanding results for our clients, ensuring that their needs are met with 
+                      precision and excellence. Our commitment to staying at the forefront of industry trends and innovations means that we are always equipped with the latest tools and strategies to provide top-tier services.</p>
+
+
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Customer-Centric Approach</h3>
+                    <h4 class="mb-3">We believe that our clients are at the heart of everything we do. Our customer-centric approach ensures that we understand and address the unique needs and goals of each client. We take the time to listen, collaborate, and develop customized solutions that drive success.</h4>
+                    <p>Our responsive and attentive team is always available to provide support and guidance, ensuring a seamless and positive experience from start to finish. Your satisfaction is our top priority, and we go above and beyond to exceed your expectations.</p>
+
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Innovative Solutions and Results-Driven Strategies</h3>
+                    <h4 class="mb-3">We are committed to delivering cutting-edge solutions that help our clients stay ahead of the competition. Our results-driven strategies are designed to maximize efficiency, enhance performance, and achieve measurable outcomes.</h4>
+                    <p>By leveraging the latest technologies and best practices, we ensure that our clients benefit from the most effective and innovative approaches. When you choose [Your Company Name], you are choosing a partner dedicated to your success, with a relentless focus on achieving your business objectives.</p>
+
+                  </div>
+                </div><!-- End slide item -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Choose Us Section -->
+
+    <!-- ======= Our Services Section ======= -->
+    <section id="services-list" class="services-list">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Services</h2>
+
+        </div>
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
+            <div>
+              <h4 class="title"><a id="o1" href="#" class="stretched-link">Comprehensive Business Solutions</a></h4>
+              <p class="description">we offer a wide range of comprehensive business solutions designed to meet the diverse needs of our clients. From strategic consulting and market analysis to process optimization and project management, our services are tailored to help your business thrive. Our team of experts works closely with you to understand your specific challenges and goals, providing customized strategies that drive growth and efficiency.</p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
+            <div>
+              <h4 class="title"><a id="o2"href="#" class="stretched-link">Cutting-Edge Technology and Innovation</a></h4>
+              <p class="description">We leverage the latest in cutting-edge technology and innovative practices to deliver exceptional services. Our technology solutions include everything from software development and IT infrastructure management to cybersecurity and data analytics. We ensure that your business is equipped with the tools and systems needed to stay ahead in a rapidly evolving digital landscape. Our commitment to innovation means we are constantly exploring new ways to enhance your business operations and deliver superior results.
+
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
+            <div>
+              <h4 class="title"><a id="o3"href="#" class="stretched-link">Exceptional Customer Support</a></h4>
+              <p class="description">Customer satisfaction is at the core of our service offerings. We provide exceptional customer support that ensures you have the assistance you need, whenever you need it. Our support services include 24/7 technical support, comprehensive training programs, and ongoing maintenance and upgrades. We are dedicated to building long-term relationships with our clients, offering consistent and reliable support to help your business succeed. With [Your Company Name], you can trust that you are in good hands every step of the way.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
+            <div>
+              <h4 class="title"><a id="o4"href="#" class="stretched-link">Strategic Planning and Consulting</a></h4>
+              <p class="description">Our strategic planning and consulting services are designed to help your business navigate complex challenges and seize new opportunities. We work with you to develop actionable plans that align with your long-term goals. Our consultants bring a wealth of industry knowledge and insights, ensuring that your strategies are informed by the latest trends and best practices. Whether you're looking to expand into new markets, streamline operations, or innovate your product offerings, our team is here to provide the guidance and support you need.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
+            <div>
+              <h4 class="title"><a id="o5"href="#" class="stretched-link">Tailored Marketing Solutions</a></h4>
+              <p class="description">we understand that effective marketing is crucial to business success. Our tailored marketing solutions are crafted to meet the unique needs of your brand and target audience. We offer a range of services including digital marketing, social media management, content creation, and SEO optimization. Our goal is to help you build a strong brand presence, engage with your customers, and drive measurable growth. By leveraging data-driven strategies and creative expertise, we ensure your marketing efforts deliver impactful results.</p>
+
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week" style="color: #1335f5;"></i></div>
+            <div>
+              <h4 class="title"><a id="o6"href="#" class="stretched-link">Financial Management and Advisory</a></h4>
+              <p class="description">Our financial management and advisory services provide you with the expertise needed to make informed financial decisions. We offer comprehensive solutions including accounting, budgeting, financial planning, and risk management. Our advisors work closely with you to understand your financial objectives and create strategies that enhance profitability and growth. With our support, you can navigate financial complexities with confidence, ensuring your business remains financially healthy and poised for future success.</p>
+
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Our Services Section -->
+
+    <!-- ======= Call To Action Section ======= -->
+    <section id="call-to-action" class="call-to-action">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h3>About the Company</h3>
+            <p>We are committed to delivering innovative solutions and exceptional customer service. We take pride in our dedication to quality, integrity, and sustainability. Our product range meets the needs of a diverse group of clients.
+
+              We believe in continuous improvement and constantly evolve to meet the changing needs of our customers and the market. Our modern facilities and advanced technology enable us to stay at the forefront of the industry, ensuring the best possible outcomes for our clients.
+              
+              Join us on our journey as we continue to lead, set new standards of excellence, and make a positive impact on the world.
+              
+              </p>
+            <a class="cta-btn" href="#">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Call To Action Section -->
+
+    <!-- ======= Features Section ======= -->
+    <!-- End Features Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="home.html" class="logo d-flex align-items-center">
+              <span>Managemant</span>
+            </a>
+            <p>We always provide solutions for all types of management.</p>
+            <div class="social-links d-flex  mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-dash"></i> <a href="home.html">Home</a></li>
+              <li><i class="bi bi-dash"></i> <a href="employee.php">View Employee</a></li>
+              <li><i class="bi bi-dash"></i> <a href="addemployee.html">Add Employee</a></li>
+              <li><i class="bi bi-dash"></i> <a href="logout.php">LogOut</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-dash"></i> <a href="#o1">Comprehensive Business Solutions</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#o2">Cutting-Edge Technology and Innovation</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#o3">Exceptional Customer Support</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#o4">Strategic Planning and Consulting</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#o5">Tailored Marketing Solutions</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#o6">Financial Management and Advisory</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              Syria <br>
+              <strong>Phone:</strong> +963948886073<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Managemant</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nova-bootstrap-business-template/ -->
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer --><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
